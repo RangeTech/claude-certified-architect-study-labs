@@ -1,0 +1,10 @@
+# Normalize line endings across the team
+* text=auto
+
+# Windows-conventional CRLF for PowerShell scripts
+*.ps1 text eol=crlf
+
+# Never touch binary files
+*.xlsx binary
+*.pdf binary
+*.png binary
