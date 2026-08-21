@@ -43,6 +43,7 @@ First, the decision. Fill this in yourself before coding (answers below are the 
 Now measure the cost of getting the tier wrong. Put this in `design_judgment.py`:
 
 ```python
+from typing import Literal
 import os, sys, json
 from pydantic import BaseModel
 import anthropic
@@ -154,7 +155,7 @@ Classify each case's signals with structured output, then compare a sentiment-ba
     class Signals(BaseModel):
         explicit_human_request: bool     # did they ask for a human / to escalate?
         sentiment: str                   # calm | frustrated | angry
-        issue_complexity: str            # trivial | moderate | complex
+        issue_complexity: Literal["trivial", "moderate", "complex"]    # trivial | moderate | complex
 
     CASES = {
         "calm_explicit":  "Everything's working fine, but I'd like to speak to a human agent please.",
