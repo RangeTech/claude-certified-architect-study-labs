@@ -1,0 +1,5 @@
+# Runtime noise generated while experimenting in the sandbox
+.claude/hooks/hook-activity.log
+gen-*.json
+review-*.json
+src/generated.py
