@@ -1,0 +1,5 @@
+# Unprotected — edits here are allowed. Use staging as the "safe" target the
+# PreToolUse hook suggests when it blocks an infra/prod/ edit.
+env: staging
+replicas: 1
+log_rotation: enabled

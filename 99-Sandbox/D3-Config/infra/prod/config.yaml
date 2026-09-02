@@ -1,0 +1,7 @@
+# PROTECTED: infra/prod/ is guarded two ways —
+#   1. a permissions deny rule in .claude/settings.json, and
+#   2. a PreToolUse hook (.claude/hooks/pre-tool-block.sh).
+# Ask Claude to edit this file and watch the deterministic block fire.
+env: production
+replicas: 5
+log_rotation: enabled

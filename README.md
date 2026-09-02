@@ -17,6 +17,7 @@ Domain weights (exam guide): D1 Agentic Architecture & Orchestration 27%, D3 Cla
 - `03-Hands-On-Labs/_AnswerKeys/` ...... worked solutions and reference outputs per lab; attempt the lab first
 - `04-Community-Resources/` ............ unofficial prep sites and guides, with cautions
 - `05-Exam-Day/` ....................... one-pager strategy + terminology hit list for the final 24h
+- `99-Sandbox/` ........................ free-play playgrounds for all five domains (`D1-Agents/` … `D5-Context/`), macOS/bash + Python — experiment freely, not graded
 
 ## Suggested path
 Orient (exam guide + sample questions) → for each domain: baseline drill → docs → labs → re-drill → final prep (full 25-question drill cold, official practice exam, exam-day one-pager). The checklist encodes this sequence with time estimates.
